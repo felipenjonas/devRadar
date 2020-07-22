@@ -1,0 +1,11 @@
+#app {
+    /* Se a tela for muto grande, ficara centralizado */
+    min-width: 1200px;
+    margin: 0 auto;
+    padding: 60px 30px;
+
+    display: flex;
+    flex-direction: row;
+    /* aside e main ficam sempe no topo, sem brigar pela tela inteira */
+    align-items: flex-start;
+}
