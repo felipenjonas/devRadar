@@ -1,16 +1,23 @@
 main {
     flex: 1;
-
 }
 
 main ul {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2, 1fr);
     /* column gap ou row gap também pode ser usado */
     gap: 20px;
     /* remove bullets */
     list-style: none;
 }
+
+/* responsividade */
+@media (max-width: 650px) {
+    main ul {
+        grid-template-columns: 1fr;
+    }
+}
+
 
 li.dev-item {
     background: #fff;
