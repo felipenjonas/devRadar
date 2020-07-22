@@ -3,6 +3,7 @@ import React from 'react';
 import './global.css';
 import './App.css';
 import './Sidebar.css';
+import './Main.css';
 
 
 function App() {
@@ -39,6 +40,42 @@ function App() {
       
       <main>
         <ul>
+          <li className="dev-item">
+            <header>
+              <img src="https://avatars2.githubusercontent.com/u/48365582?s=460&u=4699412acb6474b6a3192764e094c4937307701a&v=4" alt="Felipe Jonas"/>
+              <div className="user-info">
+                <strong>Felipe Jonas</strong>
+                <span>NodeJS, React e Python</span>
+              </div>
+            </header>
+            <p>Estudante de bid data no Agronegócio</p>
+            <a target="_blank" href="https://github.com/felipenjonas  ">Acessar perfil no Github</a>
+          </li>
+
+          <li className="dev-item">
+            <header>
+              <img src="https://avatars2.githubusercontent.com/u/48365582?s=460&u=4699412acb6474b6a3192764e094c4937307701a&v=4" alt="Felipe Jonas"/>
+              <div className="user-info">
+                <strong>Felipe Jonas</strong>
+                <span>NodeJS, React e Python</span>
+              </div>
+            </header>
+            <p>Estudante de bid data no Agronegócio</p>
+            <a target="_blank" href="https://github.com/felipenjonas  ">Acessar perfil no Github</a>
+          </li>
+
+          <li className="dev-item">
+            <header>
+              <img src="https://avatars2.githubusercontent.com/u/48365582?s=460&u=4699412acb6474b6a3192764e094c4937307701a&v=4" alt="Felipe Jonas"/>
+              <div className="user-info">
+                <strong>Felipe Jonas</strong>
+                <span>NodeJS, React e Python</span>
+              </div>
+            </header>
+            <p>Estudante de bid data no Agronegócio</p>
+            <a target="_blank" href="https://github.com/felipenjonas  ">Acessar perfil no Github</a>
+          </li>
+
           <li className="dev-item">
             <header>
               <img src="https://avatars2.githubusercontent.com/u/48365582?s=460&u=4699412acb6474b6a3192764e094c4937307701a&v=4" alt="Felipe Jonas"/>
